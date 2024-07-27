@@ -10,7 +10,7 @@ https://airtable.com/apph7PZRJZdsP0Skw/shrHwajwaShy0IpjH
 
 **Server Commands**
 
-ssh root@<IPADRESS>
+ssh root@IPADRESS
 
 sudo apt install python3-venv
 
