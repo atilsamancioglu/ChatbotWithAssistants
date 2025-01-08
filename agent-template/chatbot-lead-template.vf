@@ -263,8 +263,8 @@
       "vf_memory",
       "vf_chunks"
     ],
-    "_id": "669cc9587cff38f67058068c",
-    "updatedAt": "2024-07-21T08:39:52.364Z",
+    "_id": "66a4bd9144884ffcf0ff942d",
+    "updatedAt": "2024-07-27T09:27:45.373Z",
     "domains": [
       {
         "id": "cla06iyr900b206pkh8d4ap8n",
@@ -275,10 +275,10 @@
         ],
         "rootDiagramID": "64dbb6696a8fab0013dba194",
         "updatedBy": 981683,
-        "updatedAt": "2024-07-21T08:39:52.364Z"
+        "updatedAt": "2024-07-27T09:27:45.373Z"
       }
     ],
-    "projectID": "669cc9587cff38f67058068b",
+    "projectID": "66a4bd9144884ffcf0ff942c",
     "rootDiagramID": "64dbb6696a8fab0013dba194",
     "templateDiagramID": "654f65122649dbd4c6cb7b63"
   },
@@ -294,9 +294,9 @@
       "creatorID": 981683,
       "variables": [],
       "menuItems": [],
-      "_id": "669cc9587cff38f67058068d",
+      "_id": "66a4bd9144884ffcf0ff942e",
       "diagramID": "64dbb6696a8fab0013dba195",
-      "versionID": "669cc9587cff38f67058068c"
+      "versionID": "66a4bd9144884ffcf0ff942d"
     },
     "64dbb6696a8fab0013dba194": {
       "name": "ROOT",
@@ -490,7 +490,7 @@
                   {
                     "children": [
                       {
-                        "text": "Merhaba, ben Academy Club yardımcı asistanıyım!"
+                        "text": "Hi, I'm Academy Club assistant!"
                       }
                     ]
                   }
@@ -541,7 +541,7 @@
                   {
                     "children": [
                       {
-                        "text": "Eğitim veya teknoloji danışmanlığı alanında sorularınız varsa size yardımcı olmak isterim"
+                        "text": "I'd like to help you if you have questions about training or tech consultancy."
                       }
                     ]
                   }
@@ -999,7 +999,7 @@
                   {
                     "children": [
                       {
-                        "text": "Nasıl yardımcı olabilirim?"
+                        "text": "How can i help?"
                       }
                     ]
                   }
@@ -1035,9 +1035,9 @@
       ],
       "menuNodeIDs": [],
       "intentStepIDs": [],
-      "_id": "669cc9587cff38f67058068e",
+      "_id": "66a4bd9144884ffcf0ff942f",
       "diagramID": "64dbb6696a8fab0013dba194",
-      "versionID": "669cc9587cff38f67058068c"
+      "versionID": "66a4bd9144884ffcf0ff942d"
     }
   },
   "flows": [],
@@ -1053,8 +1053,8 @@
       "automaticReprompt": false,
       "entityOrder": [],
       "automaticRepromptSettings": null,
-      "createdAt": "2024-07-21T08:39:52.000Z",
-      "updatedAt": "2024-07-21T08:39:52.000Z",
+      "createdAt": "2024-07-27T09:27:45.000Z",
+      "updatedAt": "2024-07-27T09:27:45.000Z",
       "updatedByID": 981683
     },
     {
@@ -1066,8 +1066,8 @@
       "automaticReprompt": false,
       "entityOrder": [],
       "automaticRepromptSettings": null,
-      "createdAt": "2024-07-21T08:39:52.000Z",
-      "updatedAt": "2024-07-21T08:39:52.000Z",
+      "createdAt": "2024-07-27T09:27:45.000Z",
+      "updatedAt": "2024-07-27T09:27:45.000Z",
       "updatedByID": 981683
     },
     {
@@ -1079,8 +1079,8 @@
       "automaticReprompt": false,
       "entityOrder": [],
       "automaticRepromptSettings": null,
-      "createdAt": "2024-07-21T08:39:52.000Z",
-      "updatedAt": "2024-07-21T08:39:52.000Z",
+      "createdAt": "2024-07-27T09:27:45.000Z",
+      "updatedAt": "2024-07-27T09:27:45.000Z",
       "updatedByID": 981683
     }
   ],
@@ -1104,8 +1104,8 @@
       "datatype": "number",
       "description": "The number of times a particular user has opened the app.",
       "defaultValue": null,
-      "createdAt": "2024-07-21T08:39:52.000Z",
-      "updatedAt": "2024-07-21T08:39:52.000Z",
+      "createdAt": "2024-07-27T09:27:45.000Z",
+      "updatedAt": "2024-07-27T09:27:45.000Z",
       "updatedByID": 981683
     },
     {
@@ -1119,8 +1119,8 @@
       "datatype": "text",
       "description": "The user's unique ID.",
       "defaultValue": null,
-      "createdAt": "2024-07-21T08:39:52.000Z",
-      "updatedAt": "2024-07-21T08:39:52.000Z",
+      "createdAt": "2024-07-27T09:27:45.000Z",
+      "updatedAt": "2024-07-27T09:27:45.000Z",
       "updatedByID": 981683
     },
     {
@@ -1134,8 +1134,8 @@
       "datatype": "text",
       "description": "UNIX timestamp (number of seconds since January 1st, 1970 at UTC).",
       "defaultValue": null,
-      "createdAt": "2024-07-21T08:39:52.000Z",
-      "updatedAt": "2024-07-21T08:39:52.000Z",
+      "createdAt": "2024-07-27T09:27:45.000Z",
+      "updatedAt": "2024-07-27T09:27:45.000Z",
       "updatedByID": 981683
     },
     {
@@ -1149,8 +1149,8 @@
       "datatype": "text",
       "description": "The platform your agent is running on (e.g. \"voiceflow\").",
       "defaultValue": null,
-      "createdAt": "2024-07-21T08:39:52.000Z",
-      "updatedAt": "2024-07-21T08:39:52.000Z",
+      "createdAt": "2024-07-27T09:27:45.000Z",
+      "updatedAt": "2024-07-27T09:27:45.000Z",
       "updatedByID": 981683
     },
     {
@@ -1164,8 +1164,8 @@
       "datatype": "text",
       "description": "The locale of the user (eg. en-US, en-CA, it-IT, fr-FR, ...).",
       "defaultValue": null,
-      "createdAt": "2024-07-21T08:39:52.000Z",
-      "updatedAt": "2024-07-21T08:39:52.000Z",
+      "createdAt": "2024-07-27T09:27:45.000Z",
+      "updatedAt": "2024-07-27T09:27:45.000Z",
       "updatedByID": 981683
     },
     {
@@ -1179,8 +1179,8 @@
       "datatype": "any",
       "description": null,
       "defaultValue": null,
-      "createdAt": "2024-07-21T08:39:52.000Z",
-      "updatedAt": "2024-07-21T08:39:52.000Z",
+      "createdAt": "2024-07-27T09:27:45.000Z",
+      "updatedAt": "2024-07-27T09:27:45.000Z",
       "updatedByID": 981683
     },
     {
@@ -1194,8 +1194,8 @@
       "datatype": "number",
       "description": "The confidence interval (measured as a value from 0 to 100) for the most recently matched intent.",
       "defaultValue": null,
-      "createdAt": "2024-07-21T08:39:52.000Z",
-      "updatedAt": "2024-07-21T08:39:52.000Z",
+      "createdAt": "2024-07-27T09:27:45.000Z",
+      "updatedAt": "2024-07-27T09:27:45.000Z",
       "updatedByID": 981683
     },
     {
@@ -1209,8 +1209,8 @@
       "datatype": "text",
       "description": "The agent's last response (text/speak) in a string.",
       "defaultValue": null,
-      "createdAt": "2024-07-21T08:39:52.000Z",
-      "updatedAt": "2024-07-21T08:39:52.000Z",
+      "createdAt": "2024-07-27T09:27:45.000Z",
+      "updatedAt": "2024-07-27T09:27:45.000Z",
       "updatedByID": 981683
     },
     {
@@ -1224,8 +1224,8 @@
       "datatype": "any",
       "description": "The object containing the last event that the user client has triggered.",
       "defaultValue": null,
-      "createdAt": "2024-07-21T08:39:52.000Z",
-      "updatedAt": "2024-07-21T08:39:52.000Z",
+      "createdAt": "2024-07-27T09:27:45.000Z",
+      "updatedAt": "2024-07-27T09:27:45.000Z",
       "updatedByID": 981683
     },
     {
@@ -1239,8 +1239,8 @@
       "datatype": "text",
       "description": "The user's last utterance in a text string.",
       "defaultValue": null,
-      "createdAt": "2024-07-21T08:39:52.000Z",
-      "updatedAt": "2024-07-21T08:39:52.000Z",
+      "createdAt": "2024-07-27T09:27:45.000Z",
+      "updatedAt": "2024-07-27T09:27:45.000Z",
       "updatedByID": 981683
     },
     {
@@ -1254,8 +1254,8 @@
       "datatype": "text",
       "description": "Last 10 user inputs and agent responses in a string (e.g. \"agent: How can i help?\"\nuser: What's the weather today?).",
       "defaultValue": null,
-      "createdAt": "2024-07-21T08:39:52.000Z",
-      "updatedAt": "2024-07-21T08:39:52.000Z",
+      "createdAt": "2024-07-27T09:27:45.000Z",
+      "updatedAt": "2024-07-27T09:27:45.000Z",
       "updatedByID": 981683
     }
   ],
@@ -1270,8 +1270,8 @@
       "diagramID": "64dbb6696a8fab0013dba194",
       "assigneeID": null,
       "description": null,
-      "createdAt": "2024-07-21T08:39:52.000Z",
-      "updatedAt": "2024-07-21T08:40:39.000Z",
+      "createdAt": "2024-07-27T09:27:45.000Z",
+      "updatedAt": "2024-07-27T09:28:44.000Z",
       "updatedByID": 981683
     }
   ],
@@ -1282,7 +1282,7 @@
   "functionVariables": [],
   "project": {
     "type": "chat",
-    "name": "chatbot-lead (1)",
+    "name": "chatbot-lead-template",
     "image": "",
     "teamID": "0NjXpm5djq",
     "members": [],
@@ -1300,16 +1300,16 @@
     "aiAssistSettings": {
       "aiPlayground": true
     },
-    "_id": "669cc9587cff38f67058068b",
-    "updatedAt": "2024-07-21T08:40:47.499Z",
+    "_id": "66a4bd9144884ffcf0ff942c",
+    "updatedAt": "2024-07-27T09:29:00.911Z",
     "knowledgeBase": {
       "settings": {
         "summarization": {
+          "mode": "prompt",
+          "prompt": "",
           "model": "claude-instant-v1",
           "system": "You are an FAQ AI chat assistant. Information will be provided to help answer the user's questions. Always summarize your response to be as brief as possible and be extremely concise. Your responses should be fewer than a couple of sentences.",
-          "temperature": 0.1,
-          "mode": "prompt",
-          "prompt": ""
+          "temperature": 0.1
         },
         "chunkStrategy": {
           "type": "recursive_text_splitter",
@@ -1327,7 +1327,7 @@
       },
       "documents": {}
     },
-    "devVersion": "669cc9587cff38f67058068c"
+    "devVersion": "66a4bd9144884ffcf0ff942d"
   },
   "_version": "1.2",
   "variableStates": []
