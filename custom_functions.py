@@ -7,14 +7,19 @@ from dotenv import load_dotenv, dotenv_values
 
 load_dotenv()
 
-# Init OpenAI Client
-client = OpenAI()
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+AIRTABLE_API_KEY = os.getenv("AIRTABLE_API_KEY")
 
+# Init OpenAI Client
+client = OpenAI(
+    api_key=OPENAI_API_KEY,
+    default_headers={"OpenAI-Beta": "assistants=v2"}
+)
 # Add lead to Airtable
 def create_lead(name="", company_name="", phone="", email=""):
   url = "https://api.airtable.com/v0/appEH432PCXidCD7Y/Leads"  # Change this to your Airtable API URL
   headers = {
-      "Authorization" : 'Bearer ' + dotenv_values().get("AIRTABLE_API_KEY"),
+      "Authorization" : 'Bearer ' + AIRTABLE_API_KEY,
       "Content-Type": "application/json"
   }
   data = {
@@ -33,7 +38,6 @@ def create_lead(name="", company_name="", phone="", email=""):
     return response.json()
   else:
     print(f"Failed to create lead: {response.text}")
-
 
 # Create or load assistant
 def create_assistant(client):
@@ -56,7 +60,7 @@ def create_assistant(client):
     assistant = client.beta.assistants.create(
         # Getting assistant prompt from "prompts.py" file, edit on left panel if you want to change the prompt
         instructions=assistant_instructions,
-        model="gpt-4-turbo",
+        model="gpt-4-turbo-preview",
         tools=[
             {
                 "type": "retrieval"  # This adds the knowledge base as a tool
