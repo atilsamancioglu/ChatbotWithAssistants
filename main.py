@@ -4,7 +4,7 @@ import time
 from flask import Flask, request, jsonify
 import openai
 from openai import OpenAI
-import functions
+import custom_functions
 from waitress import serve
 
 # Check OpenAI version compatibility
@@ -32,7 +32,7 @@ client = OpenAI(
 )
 
 # Create or load assistant
-assistant_id = functions.create_assistant(
+assistant_id = custom_functions.create_assistant(
     client)  # this function comes from "functions.py"
 
 
@@ -84,7 +84,7 @@ def chat():
           phone = arguments.get('phone','')
           email = arguments.get('email','')
 
-          output = functions.create_lead(name, company_name, phone, email)
+          output = custom_functions.create_lead(name, company_name, phone, email)
           client.beta.threads.runs.submit_tool_outputs(thread_id=thread_id,
                                                     run_id=run.id,
                                                     tool_outputs=[{
